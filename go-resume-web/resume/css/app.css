@@ -1,0 +1,83 @@
+/* app css stylesheet */
+@media print {
+	.row.title {
+		page-break-after: avoid;
+	}
+	.row.project {
+		page-break-inside: avoid;
+
+	}
+}
+.border.example {
+	border: 1px solid rgba(86,61,124,.2);
+}
+
+.project .title,
+.orig dt {
+	margin-top: 15px;
+	padding-bottom: 4px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar {
+	border-right: 1px solid #ddd;
+}
+
+
+
+
+.orig dd {
+   margin-left: 20px;
+}
+.orig dd p {
+	margin: 0;
+}
+
+.company.name {
+
+}
+.orig .project.name.visible-xs {
+	display: inline-block;
+  max-width: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tool {
+	font-weight: bold;
+}
+.tool .more.info {
+	font-weight: lighter;
+}
+
+.project .title small::before,
+.orig .project.short.name::before {
+  content: "(";
+}
+.project .title small::after,
+.orig .project.short.name::after {
+  content: ")";
+}
+
+/*.date.range .divider::before {content: ", ";}*/
+
+.date.range .start {  }
+.date.range .end {  }
+
+.date.range .end::before {
+	content: " - ";
+}
+.list-inline>li.start {
+	/*padding-right: 0;*/
+}
+.list-inline>li.end {
+	padding-left: 0;
+}
+
+.project dd {
+	margin-bottom: 10px;
+}
+.project dd ul {
+	margin: 0;
+}

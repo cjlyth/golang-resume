@@ -1,0 +1,539 @@
+{
+  "company": "Booz Allen Hamilton",
+  "dates": [
+    "2003-12-29",
+    "Present"
+  ],
+  "projects": [
+    {
+      "longName": "ThreatBase Portal",
+      "shortName": "tbportal",
+      "dates": [
+        "2014-03-01",
+        "Present"
+      ],
+      "roles": [
+        "Lead Developer"
+      ],
+      "objective": [
+        "Give clients direct access to our proprietary cyber threat database"
+      ],
+      "responsibilities": [
+        "Provide architecture advice to project leadership",
+        "Design and implement new features as needed",
+        "Identify risks and suggest solutions for all development efforts"
+      ],
+      "technologies": [
+        "NodeJS",
+        "AngularJS",
+        "Elasticsearch",
+        "Solr",
+        "Docker",
+        "Sails.js",
+        "MongoDB",
+        "Bootstrap"
+      ],
+      "achievements": [
+        "By diligently identifying risks and facilitating mitigation, team success was significantly improved",
+        "Modernized and improved search functionality by advocating replacement of a complex Solr configuration with a much more powerful and simple elasticsearch service"
+      ]
+    },
+    {
+      "longName": "Social Search",
+      "shortName": "",
+      "dates": [
+        "2014-01-01",
+        "2014-03-01"
+      ],
+      "roles": [
+        "Solution Architect",
+        "Lead Developer"
+      ],
+      "objective": [
+        "Create a tool help targeting analysts quickly find relevant content across a very large number of sites"
+      ],
+      "responsibilities": [
+        "Design a solution to a difficult problem that could be completed on a small budget and in a very short period of time",
+        "Lead a small team of developers with diverse backgrounds in a high pressure environment"
+      ],
+      "technologies": [
+        "Ruby on Rails",
+        "AngularJS",
+        "MongoDB",
+        "Bootstrap"
+      ],
+      "achievements": [
+        "Identified a core set of requirements from a large complicated problem set resulting in a useful elegant solution ",
+        "Designed a very flexible tool that was easily implemented within the allotted month of development time",
+        "Leveraged powerful features of angularjs in unconventional ways to provide a high quality product that satisfied our client’s needs",
+        "Frequently met with clients, including operational analysts to ensure a high quality product"
+      ]
+    },
+    {
+      "longName": "Global 4 Sight",
+      "shortName": "G4S",
+      "dates": [
+        "2013-07-01",
+        "2013-12-01"
+      ],
+      "roles": [
+        "Solution Architect",
+        "Technical Lead"
+      ],
+      "objective": [
+        "Create new service offerings for global minded clients and concerns"
+      ],
+      "responsibilities": [
+        "Design solutions to support small teams of analysts as they developed pilot service offerings",
+        "Managed a team of engineers in a highly dynamic environment",
+        "Attended many planning sessions providing technical solutions to a wide range of problems as needed"
+      ],
+      "technologies": [
+        "NodeJS",
+        "Splunk",
+        "MongoDB"
+      ],
+      "achievements": [
+        "Created a platform to run a number of proprietary algorithms",
+        "Integrated with a legacy splunk instance that operates as a business intelligence tool for our clients",
+        "Designed a number of solutions that became key differentiators in our service offerings"
+      ]
+    },
+    {
+      "longName": "Automated First Responder",
+      "shortName": "AFR",
+      "dates": [
+        "2013-05-01",
+        "2013-06-01"
+      ],
+      "roles": [
+        "Solution Architect",
+        "Lead Developer"
+      ],
+      "objective": [
+        "Create a tool to help operational analysts identify and deal with threats and incidents on a clients desktop machines"
+      ],
+      "responsibilities": [
+        "Design a solution to satisfy poorly defined requirements",
+        "Recover from multiple missed deliverables",
+        "Lead a small team of developers"
+      ],
+      "technologies": [
+        "NodeJS",
+        "AngularJS",
+        "MongoDB",
+        "Bootstrap"
+      ],
+      "achievements": [
+        "Assumed control of a failing project and managed to deliver a product on time",
+        "Worked with a dissatisfied client to refine requirements resulting in an entirely new tool in a very short period of time",
+        "Improved client relations by delivering a high quality tool, resulting in a long lasting client engagement"
+      ]
+    },
+    {
+      "longName": "ThreatBase",
+      "shortName": "",
+      "dates": [
+        "2013-02-01",
+        "2013-05-01"
+      ],
+      "roles": [
+        "System Architect",
+        "Lead Developer"
+      ],
+      "objective": [
+        "Create a proprietary cyber threat database and analytic platform"
+      ],
+      "responsibilities": [
+        "Design and implement business intelligence (BI) webapp"
+      ],
+      "technologies": [
+        "NodeJS",
+        "Virtuoso",
+        "Highcharts",
+        "Bootstrap",
+        "MongoDB"
+      ],
+      "achievements": [
+        "Joined team that was months behind schedule and successfully delivered a feature complete application within 2 weeks",
+        "Established agile processes for a team of junior engineers",
+        "Distilled existing requirements into smaller units that enabled incremental development",
+        "Introduced a whole new method of development to existing team",
+        "After 2 weeks the project was so successful it was instantly seen as a key differentiator to our service offering and critical to the firm’s business",
+        "Partners from the highest levels at Booz Allen took personal interest in the application",
+        "Booz Allen has used this project to develop a new way to provide services to our clients"
+      ]
+    },
+    {
+      "longName": "Neith",
+      "shortName": "",
+      "dates": [
+        "2012-09-01",
+        "2013-01-01"
+      ],
+      "roles": [
+        "Solution Architect",
+        "Technical Lead",
+        "Lead Developer"
+      ],
+      "objective": [
+        "Capture unstructured content from a multitude websites "
+      ],
+      "responsibilities": [
+        "Manage requirements and stakeholder interests",
+        "Design solution to integrate with existing tools and processes",
+        "Share the project vision with clients and stakeholders",
+        "Lead a team of developers"
+      ],
+      "technologies": [
+        "NodeJS",
+        "Virtuoso",
+        "Highcharts",
+        "Bootstrap",
+        "MongoDB"
+      ],
+      "achievements": [
+        "Conveyed a complex architecture by creating diagrams and user stories tailored to a diverse audience ",
+        "Earned a reputation across multiple teams as an expert with the technologies",
+        "Successfully met every milestone and deliverable on time and feature complete",
+        "Created workflows, issue types, screens and other Jira artifacts to enable Behavior Driven Development (BDD)"
+      ]
+    },
+    {
+      "longName": "Trac2es",
+      "shortName": "Traces",
+      "dates": [
+        "2012-02-01",
+        "2012-08-01"
+      ],
+      "roles": ["Lead Developer"],
+      "objective": [
+        "Provide the US Coast Guard with tools to track assets worldwide"
+      ],
+      "responsibilities": [
+        "Design and implement modules based on client needs"
+      ],
+      "technologies": [
+        "C#",
+        "Adobe Flex",
+        "Actionscript"
+      ],
+      "achievements": [
+        "Designed and developed a stand alone application to monitor status of remote stations and Buoys in real time",
+        "Created a modern and attractive interface using Adobe Flex",
+        "Developed multiple modules that became part of a much larger application that was deployed to 6 different client organizations"
+      ]
+    },
+    {
+      "longName": "Digital Information Gathering System",
+      "shortName": "DIGS",
+      "dates": [
+        "2011-08-01",
+        "2012-01-01"
+      ],
+      "roles": [
+        "System Architect",
+        "Technical Lead",
+        "Lead Developer"
+      ],
+      "achievements": [
+        "Designed a swing GUI based on the <span class='tool api platform'>NetBeans platform</span> to visualize and manipulate graph structures",
+        "Integrated <span class='tool'>Gephi</span>, <span class='tool'>yFiles</span>, and Booz Allen proprietary code to create a robust information discovery platform",
+        "Created API’s and SPI’s for junior team members to use, and mentored as necessary to ensure success"
+      ]
+    },
+    {
+      "longName": "Internet Search Execution Environment",
+      "shortName": "iSEE",
+      "dates": [
+        "2010-07-01",
+        "2011-07-01"
+      ],
+      "roles": [
+        "Solution Architect",
+        "Technical Lead",
+        "Lead Developer"
+      ],
+      "achievements": [
+        "Designed an enterprise level system that simulated the infrastructure of the internet for use in training environments",
+        "Quickly responded to rapidly evolving client requirements, provide a high level of service and satisfaction to our client",
+        "Integrated multiple enterprise open source applications (<span class='tool'>Heritrix</span>, <span class='tool'>Wayback</span>, <span class='tool'>Nutch</span>) to suit the needs of the project",
+        "Designed and developed API hooks in open source applications to collect metrics relevant to the client’s needs",
+        "Integrated software from a subcontractor into the environment to allow for the collection of more metric data",
+        "Designed and developed an interface for instructors to monitor and manipulate a student’s activity in the environment",
+        "Collected hundreds of gigabytes of web pages to be searched and rendered in the environment while offline, making rendering nearly identical to the original online representation",
+        "Presented multiple very successful demos to very senior members of the intelligence community",
+        "Generated a high level of excitement in the instructor community for the use of this tool"
+      ]
+    },
+    {
+      "longName": "Open Source Intelligence Solutions",
+      "shortName": "OSINT",
+      "dates": [
+        "2009-08-01",
+        "2010-06-01"
+      ],
+      "roles": [
+        "Solutions Architect"
+      ],
+      "achievements": [
+        "Designed multiple enterprise level OSINT Exploitation systems to suit the needs of various clients",
+        "Effectively communicated designs and ideas to various audiences; various techniques were used including, but not limited to, white papers, PowerPoint presentations and verbal. ",
+        "Frequently met with senior decision makers within Booz Allen as well as Government Clients",
+        "Generated more than 12 opportunities, tailored to the capabilities of our team as well as the client’s needs",
+        "Designed developed and lead a team of developers that mined information out of a collection of resumes for all Booz Allen staff",
+        "Implemented and used advanced text analytic algorithms (<span class='tool'>Latent Dirichlet Allocation</span>, <span class='tool'>Latent Semantic Indexing</span>, <span class='tool'>Naive Bayes Classifiers</span> and other similar algorithms) to model and index resume data",
+        "Leveraged these technologies to market our skills and capabilities to clients as well as other Booz Allen Teams",
+        "Assessed graph visualization toolkits including <span class='tool'>Gephi</span>, <span class='tool'>Walrus</span>, <span class='tool'>InfoVis</span>, <span class='tool'>Protovis</span> as well as others"
+      ]
+    },
+    {
+      "longName": "General (Applies to projects in time period)",
+      "shortName": "",
+      "dates": [
+        "2007-06-01",
+        "2009-08-01"
+      ],
+      "roles": [
+        "Project Advisor",
+        "Technical Mentor"
+      ],
+      "achievements": [
+        "Configured and maintained several Application lifecycle management (ALM) tools for multiple teams",
+        "Gained considerable experience with a number of ALM tools including, <span class='alm tool di'>Apache Archiva <span class='more info'>(dependency and release management)</span></span>, <span class='alm tool ci'>Apache Continuum <span class='more info'>(continuous integration server)</span></span>, <span class='alm tool scm'>Subversion <span class='more info'>(source control)</span></span>, <span class='alm tool issue'>Bugzilla <span class='more info'>(issue tracking)</span></span>, <span class='alm tool pm build release'>Apache Maven <span class='more info'>(project management and build tool)</span></span> and a handful of others",
+        "Set a high standard for code quality on multiple development teams through mentorship and process improvement",
+        "Conducted multi-team brown bags on various software engineering methodologies like <span class='software quality test alm'>test driven development (TDD)</span>, <span class='software quality test unit alm'>mock frameworks</span> and ALM tool use"
+      ]
+    },
+    {
+      "longName": "Digital Biometrics",
+      "shortName": "DIBIS",
+      "dates": [
+        "2007-06-01",
+        "2009-08-01"
+      ],
+      "roles": [
+        "System Architect",
+        "Lead Developer"
+      ],
+      "achievements": [
+        "Designed an enterprise level system that integrated behavioral biometrics sensors",
+        "Conducted design meetings with clients to ensure requirements were accurately captured",
+        "Lead a team of 5 developers that included subcontractors in a distributed environment",
+        "Coordinated with a 3rd party development team (not subcontractor) to ensure client requirements were met by both teams"
+      ]
+    },
+    {
+      "longName": "Oscar",
+      "shortName": "",
+      "dates": [
+        "2007-06-01",
+        "2009-08-01"
+      ],
+      "roles": [
+        "Solution Architect",
+        "Technical Lead",
+        "Lead Developer"
+      ],
+      "achievements": [
+        "Designed an enterprise level system that tracked intelligence requirements and products",
+        "Conducted meetings with clients to ensure system requirements and design were accurately captured",
+        "Primarily used the <span class='tool orm framework'>Hibernate</span>, <span class='tool orm di framework'>Spring</span>, and <span class='tool mvc apache framework'>Apache Wicket</span> frameworks",
+        "Lead a very diverse team of 5 software developers",
+        "Defined software development processes that included peer code reviews, architecture review and other ALM methodologies",
+        "Assigned components to developers based on their skill sets allowing individuals to grow at a rate that was comfortable to them and the project",
+        "Provided the team with a transparent architecture and structured development environment"
+      ]
+    },
+    {
+      "longName": "Global Traceroute",
+      "shortName": "",
+      "dates": [
+        "2007-06-01",
+        "2009-08-01"
+      ],
+      "roles": [
+        "Project Advisor",
+        "System Architect"
+      ],
+      "achievements": [
+        "Attended and coordinated meetings with clients to obtain requirements",
+        "Designed a <span class='software design pattern'>Service-oriented architecture (SOA)</span> approach that allowed for modular deployment",
+        "Identified technologies and frameworks to be used",
+        "Provided developers with technical guidance during implementation"
+      ]
+    },
+    {
+      "longName": "Pepsi Horizon Scanning",
+      "shortName": "",
+      "dates": [
+        "2007-06-01",
+        "2009-08-01"
+      ],
+      "roles": [
+        "Solution Architect",
+        "Lead Developer"
+      ],
+      "achievements": [
+        "Attended and coordinated client meetings to obtain requirements",
+        "Designed and implemented a fully functioning, proof of concept",
+        "Leveraged google alerts using the JavaMail API to parse news alerts",
+        "Consumed the <span class='api tool nlp'>Clearforest</span> Web service (prior to Reuters purchase and OpenCalais release) to extract entities from news alerts",
+        "Designed and implemented a <span class='tool mvc apache framework'>Apache Wicket</span> based GUI that included some <span class='tool js framework'>EXTJS</span> and <span class='tool api map'>Google Maps</span> components",
+        "Designed modular pipeline approach based on <span class='tool apache framework'>Apache Commons Pipeline</span>",
+        "Identified tools for the client deliverable and refactored components of the proof of concept as needed",
+        "Used the <span class='tool rdf api apache'>JENA</span> <span class='tool rdf api'>RDF</span> API to parse responses from the entity extract service"
+      ]
+    },
+    {
+      "longName": "Composable Applications",
+      "shortName": "",
+      "dates": [
+        "2007-06-01",
+        "2009-08-01"
+      ],
+      "roles": [
+        "Solution Architect",
+        "Lead Developer"
+      ],
+      "achievements": [
+        "Attended and coordinated meetings to identify client requirements",
+        "Identified and analyzed many open and closed source tools that provide needed functionality including <span class='tool api soa'>Microsoft Popfly</span>, <span class='tool api soa'>Yahoo Pipes</span> and <span class='tool api soa apache'>Apache Service Mix</span>"
+      ]
+    },
+    {
+      "longName": "Global Disease Sentinel Network",
+      "shortName": "GDSN",
+      "dates": [
+        "2006-11-01",
+        "2007-05-01"
+      ],
+      "roles": [
+        "Software Developer"
+      ],
+      "achievements": [
+        "Consumed and integrated <span class='tool api'>SOAP</span> services that perform various <span class='tool api map gis'>Arc GIS</span> functions",
+        "Wrote <span class='tool js pattern'>AJAX</span> components that cleanly integrated with Legacy <span class='tool java'>J2EE</span> components",
+        "Designed and implemented <span class='tool java server'>Weblogic</span> portlets, Pageflows and Controls",
+        "Refactored legacy code that controlled the application state and developed a new Shopping Cart style portlet to improve the user experience"
+      ]
+    },
+    {
+      "longName": "InTrack",
+      "shortName": "",
+      "dates": [
+        "2006-11-01",
+        "2007-05-01"
+      ],
+      "roles": [
+        "Solution Architect",
+        "Lead Developer"
+      ],
+      "achievements": [
+        "Designed a Rich Internet Application that performed similar functions as a combination of commercial tools",
+        "Designed Servlets using the <span class='software design pattern'>REST</span> architectural style",
+        "Designed and Implemented a <span class='tool java lang'>JSP</span> “Workbench” that dynamically loaded and persisted its content from REST services",
+        "Designed and coded <span class='tool js lang pattern'>JSON</span> model objects for application state transfer",
+        "Designed and Implemented widgets using various <span class='tool js lang lib'>JavaScript</span> libraries",
+        "Designed and created a flexible and easy to maintain database schema",
+        "Worked on an extremely fast paced timeline, consistently delivering more functionality than expected",
+        "Integrated many open source tools (<span class='tool lucene apache search server'>Nutch</span>, <span class='tool db orm'>Hibernate</span>, <span class='tool lib apache framework'>Apache ECS</span>, <span class='tool lib js map'>Google Maps</span>, <span class='tool lib map server'>Arc GIS</span>, <span class='tool lib js framework mvc'>YUI</span>, <span class='tool lib js framework mvc'>Dojo</span>, <span class='tool apache db server'>Apache Derby</span>)",
+        "Designed an abstract architecture that allowed any news feed to be integrated and searched by our system",
+        "Leveraged open source tools (ROME) to search news feeds and fetch results",
+        "Parsed news feeds (RSS, ATOM, etc…) and extracted a set of data that could integrate into our existing environment",
+        "Designed an object model that could store the maximum amount of information from news feeds as possible while still maintaining a common dataset with our legacy data",
+        "Designed a method to fetch pages the news item derived from and display those pages in our application"
+      ]
+    },
+    {
+      "longName": "Tra2es",
+      "shortName": "",
+      "dates": [
+        "2005-04-01",
+        "2006-10-01"
+      ],
+      "roles": [
+        "Software Developer"
+      ],
+      "achievements": [
+        "Fixed defects and made improvements to Swing forms",
+        "Maintained XML documents that were responsible for linking view elements with calls to <span class='lang db'>PL/SQL</span> scripts"
+      ]
+    },
+    {
+      "longName": "NPAT",
+      "shortName": "",
+      "dates": [
+        "2005-04-01",
+        "2006-10-01"
+      ],
+      "roles": [
+        "Software Developer"
+      ],
+      "achievements": [
+        "Fixed defects on an existing application that involved creating new and repairing existing <span class='lang db'>PL/SQL</span> scripts",
+        "Repaired stateful table links that joined stateful entities from different tables",
+        "Designed and coded multiple extract, transform and load (ETL) applications that provided data for a large data warehouse",
+        "Created ingest applications for XML, CSV, and Tab delimited files",
+        "Redesigned the middle tier of a Swing based application to uncouple the business logic from the GUI code",
+        "Extracted business rules from Swing components",
+        "Worked closely with team members to Build a set of XML files that represented all business rules for our application",
+        "Designed and implemented a scalable middle tier allowing for future addition Web Services",
+        "Documented the existing and new application using Rational templates and standard UML diagrams",
+        "Provided advice and support to a team of 5 developers, assisting in OO design and coding practices"
+      ]
+    },
+    {
+      "longName": "Resource Allocation Board Tool",
+      "shortName": "RAB",
+      "dates": [
+        "2004-06-01",
+        "2005-03-01"
+      ],
+      "roles": [
+        "Software Developer"
+      ],
+      "achievements": [
+        "Applied the <span class='tool mvc apache framework java tool'>Apache Struts</span> framework to an existing model 2 (non-struts) Java web application",
+        "Implemented and customized <span class='tool java apache server tool'>tomcat</span> container managed security infrastructure that allowed for custom Single Sign On functionality",
+        "Assisted in the creation and maintenance of <span class='db server java tool'>Oracle</span> Databases",
+        "Setup the team development infrastructure using <span class='linux server tool'>Linux</span> based Web and CVS servers"
+      ]
+    },
+    {
+      "longName": "Timeline",
+      "shortName": "",
+      "dates": [
+        "2004-01-01",
+        "2004-05-01"
+      ],
+      "roles": [
+        "Software Developer"
+      ],
+      "achievements": [
+        "Worked as a Java developer to integrate various web services",
+        "Created JAVA SERVLETS to pass information to a JSP view",
+        "Created JAVA SERVER PAGES (JSP) to display content",
+        "Evaluated software to determine its eligibility for integration into our application",
+        "Wrote several client deliverable reports based on product evaluations",
+        "Provided feedback to the software vendors including suggested improvements",
+        "Gathered and documented requirements based on product evaluations"
+      ]
+    },
+    {
+      "longName": "IAIP Dashboard",
+      "shortName": "",
+      "title": "IAIP Dashboard",
+      "dates": [
+        "2004-01-01",
+        "2004-05-01"
+      ],
+      "roles": [],
+      "achievements": [
+        "Gathered and documented requirements",
+        "Conducted meetings with clients to review business processes",
+        "Gathered requirements from end users and domain experts"
+      ]
+    }
+  ]
+}

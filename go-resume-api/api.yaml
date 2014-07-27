@@ -1,0 +1,14 @@
+application: lyth-resume
+module: api
+version: v1
+runtime: go
+api_version: go1
+
+handlers:
+- url: /.*
+  script: _go_app
+  login: optional
+  # http_headers:
+  # Access-Control-Allow-Origin: http://mygame.appspot.com
+  # auth_fail_action: unauthorized
+

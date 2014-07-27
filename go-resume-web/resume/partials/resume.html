@@ -1,0 +1,32 @@
+<div class="row orig" ng-repeat="experience in resume.experience | orderBy:dates:true">
+  <div class="col-md-12">
+    <h4>
+      <small class="company date range pull-right">
+        <span ng-repeat-start="date in experience.dates track by $index">{{ date | toDate:'YYYY' }}</span>
+        <span ng-repeat-end ng-show="!$last" > - </span>
+      </small>
+      <span class="company name" ng-bind="experience.company"></span>
+    </h4>
+  </div>
+  <dl class="col-md-10 col-md-offset-1">
+    <dt ng-repeat-start="project in experience.projects">
+      <h5>
+        <small class="project date range pull-right">
+          <span ng-repeat-start="date in project.dates track by $index">{{ date | toDate:'MM/YYYY' }}</span>
+          <span ng-repeat-end ng-show="!$last" > - </span>
+        </small>
+        <span class="project long name hidden-xs" ng-bind="project.longName"></span>
+        <span class="project short name small hidden-xs"  ng-show="project.shortName" ng-bind="project.shortName"></span>
+        <span class="project name visible-xs" ng-bind="project.shortName || project.longName"></span>
+
+      <h5>
+    </dt>
+    <dd ng-repeat-end ng-switch="project.description.length">
+      <ul class="list-inline">
+        <li ng-repeat="role in project.roles"><span class="label label-default" ng-click="selectRole(role)" ng-bind="role"></span></li>
+      </ul>
+      <p ng-switch-when="0" class="text-muted">Please check back soon for more...</p>
+      <p ng-repeat="description in project.description" ng-bind-html="description"></p>
+    </dd>
+  </dl>
+</div>

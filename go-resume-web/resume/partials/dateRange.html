@@ -1,0 +1,20 @@
+<span class="date range">
+  <span ng-class="{'start': $even, 'end': $odd}"
+        ng-repeat-start="date in range track by $index"
+        ng-bind="date | toDate:format "></span>
+
+  <span ng-repeat-end
+        class="clearfix"
+        ng-if="$odd && $middle"></span>
+
+</span>
+
+<!--
+
+<ul class="date range list-inline">
+  <li ng-class="{'start text-right': $even, 'end text-left': $odd}"
+        ng-repeat="date in range track by $index"
+        ng-bind="date | toDate:format "></li>
+</ul>
+
+ -->

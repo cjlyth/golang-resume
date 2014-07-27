@@ -1,0 +1,37 @@
+application: lyth-resume
+module: default
+version: 1
+runtime: go
+api_version: go1
+
+skip_files:
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+- ^(.*/)?\.md$
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /css
+  static_dir: resume/css
+
+- url: /img
+  static_dir: resume/img
+
+- url: /js
+  static_dir: resume/js
+
+- url: /lib
+  static_dir: resume/lib
+
+- url: /partials
+  static_dir: resume/partials
+
+- url: /.*
+  static_files: resume/index.html
+  upload: resume/index\.html

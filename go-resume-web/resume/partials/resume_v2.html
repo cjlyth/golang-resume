@@ -1,0 +1,10 @@
+<div class="row h4 company" ng-repeat-start="experience in resume.experience | orderBy:dates:true" >
+  <span class="col-md-10" ng-bind="experience.company"></span>
+  <span class="col-md-2 text-right hidden"
+        date-range="experience.dates"
+        date-format="YYYY" ></span>
+</div>
+<div class="row project" ng-repeat-end
+      ng-repeat="project in experience.projects | orderBy:dates:true">
+  <span class="col-xs-12 project" project="project"></span>
+</div>

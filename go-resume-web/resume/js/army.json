@@ -1,0 +1,37 @@
+{
+  "company": "US Army",
+  "dates": ["1997-09-29","2003-12-29"],
+  "projects": [
+    {
+      "longName": "Various",
+      "shortName": "",
+      "dates": [
+        "1998-03-01",
+        "2003-12-29"
+      ],
+      "roles": [
+        "Software Developer",
+        "Network Administrator",
+        "Database Administrator"
+      ],
+      "achievements": [
+        "Worked in Microsoft Visual Basic for Applications to Develop easy to use graphical user interfaces for use on local machines",
+        "Worked with clients to determine the needs of the employees while designing the applications",
+        "Performed a Web site revamp",
+        "Created web based forms and reports using ASP, HTML and JAVA SCRIPT",
+        "Trained employees to use our custom software solutions",
+        "Developed personnel management applications in Visual Basic .net with a web based reporting tool in ASP .net",
+        "Designed, planned, created, and tested access databases that assisted over 200 employee’s in their move to our organization",
+        "Migrated existing SQL databases to Network based Microsoft Access databases",
+        "Designed, planned, created, and tested access databases that provided the following services",
+        "Tracked missions and equipment worldwide",
+        "Automated part ordering and inventory",
+        "Acted as the sole systems administrator and technician maintaining 3 secure networks, supporting more than 50 users with 0 unscheduled downtime",
+        "Performed maintenance and troubleshooting when necessary on Cisco routers, INDX and Promina Multiplexers, Canoga Perkins Fiber optic modems, KG 94, KIV7,and KIV19 Cryptology devices",
+        "Maintained 3 Communications Security accounts",
+        "Created solutions to track missions and equipment worldwide",
+        "Automated parts ordering and inventory by integrating a large distributed database with custom software solutions"
+      ]
+    }
+  ]
+}

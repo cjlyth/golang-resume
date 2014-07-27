@@ -1,0 +1,64 @@
+<h3 class="row title">
+    
+    <span class="col-xs-9">
+      <span ng-bind="project.longName"></span>
+      <small class="text-muted" ng-bind="project.shortName" ng-if="project.shortName"></small>
+    </span>
+
+    <span class="col-xs-3 text-right small"
+      date-range="project.dates"
+      date-format="MM/YYYY" ></span>
+</h3>
+<div class="row details">
+    <dl class="hidden-xs col-sm-2 sidebar">
+      <dt ng-if-start="project.roles">Roles</dt>
+      <dd ng-if-end>
+        <ul  class="list-unstyled">
+          <li ng-repeat="line in project.roles" ng-bind-html="line"></li>
+        </ul>
+      </dd>
+      <dt ng-if-start="project.technologies">Technologies</dt>
+      <dd ng-if-end>
+        <ul  class="list-unstyled">
+          <li ng-repeat="line in project.technologies" ng-bind-html="line"
+              ></li>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="col-sm-10 dl-horizontal" >
+      <dt ng-if-start="project.objective">Project Objective</dt>
+      <dd ng-if-end>
+        <ul  class="list-unstyled">
+          <li ng-repeat="line in project.objective" ng-bind-html="line"></li>
+        </ul>
+      </dd>
+      <dt class="visible-xs" ng-if-start="project.roles">Roles</dt>
+      <dd class="visible-xs" ng-if-end>
+        <span  ng-repeat="line in project.roles"
+          ng-bind="($middle ? ', ' : $last && !$first ? ' and ' : '') + line"></span>
+      </dd>
+      <dt ng-if-start="project.responsibilities">Responsibilities</dt>
+      <dd ng-if-end>
+        <ul  class="list-unstyled">
+          <li ng-repeat="line in project.responsibilities" ng-bind-html="line"></li>
+        </ul>
+      </dd>
+      <dt ng-if-start="project.achievements">Achievements</dt>
+      <dd ng-if-end>
+        <ul  class="list-unstyled">
+          <li ng-repeat="line in project.achievements" ng-bind-html="line"></li>
+        </ul>
+      </dd>
+      <dt ng-if-start="project.description">Description</dt>
+      <dd ng-if-end>
+        <ul  class="list-unstyled">
+          <li ng-repeat="line in project.description" ng-bind-html="line"></li>
+        </ul>
+      </dd>
+      <dt class="visible-xs" ng-if-start="project.technologies">Technologies</dt>
+      <dd class="visible-xs" ng-if-end>
+        <span  ng-repeat="line in project.technologies"
+              ng-bind="($middle ? ', ' : $last && !$first ? ' and ' : '') + line"></span>
+      </dd>
+    </dl>
+</div>
