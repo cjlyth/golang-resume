@@ -1,0 +1,46 @@
+{
+  "company": "Public Relay",
+  "dates": [
+    "2014-09-01",
+    "Present"
+  ],
+  "projects": [
+    {
+      "longName": "General (Applies to projects in time period)",
+      "shortName": "",
+      "dates": [
+        "2014-09-01",
+        "Present"
+      ],
+      "roles": [
+        "Software Architect"
+      ],
+      "objective": [
+        "Enhance and maintain internal media tracking tool"
+      ],
+      "responsibilities": [
+        "Provide architecture advice to project leadership",
+        "Design and implement new features as needed",
+        "Identify risks and suggest solutions for all development efforts",
+        "Enhance code team code quality by setting standards for unit testing and building our code"
+      ],
+      "technologies": [
+        "Java",
+        "Spring",
+        "Elasticsearch",
+        "Tomcat",
+        "Docker",
+        "Gradle",
+        "MongoDB",
+        "ActiveMQ",
+        "Postgres"
+      ],
+      "achievements": [
+        "Established unit test standards and guidelines for team members, provided ongoing instruction and guidance",
+        "Quickly became in house expert on spring integration which was the core of our legacy application",
+        "Identified inefficiencies in our software development processes and recommended several improvements",
+        "Implemented multiple client and analyst facing features leveraging multiple spring libraries minimizing technical debt"
+      ]
+    }
+  ]
+}
