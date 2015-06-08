@@ -1,8 +1,7 @@
 cjlyth.github.io
 ================
 
-http://cjlyth.com
-http://cjlyth.com/resume
+http://lyth.us
 
 My public profile, things like resume and portfolio.
 
