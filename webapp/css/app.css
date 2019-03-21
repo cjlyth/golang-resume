@@ -1,10 +1,18 @@
 /* app css stylesheet */
 @media print {
+	@page {
+		size: 330mm 427mm;
+		margin: 14mm;
+	}
+	.container {
+		width: 100%;
+	}
 	.row.title {
 		page-break-after: avoid;
 	}
 	.row.project {
 		page-break-inside: avoid;
+		min-width: 980px;
 
 	}
 }
