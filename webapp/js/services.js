@@ -1,7 +1,7 @@
 'use strict';
 /* Services */
 angular.module('resumeApp.services', ['ngResource'])
-.value('companies', ["publicrelay", "booz", "army" ])
+.value('companies', ["autozone", "publicrelay", "booz", "army" ])
 .factory('resumeData', ['$resource', function($resource) {
 	var CompanyExperience = $resource('js/:company.json'
 													, { company: '@id'}

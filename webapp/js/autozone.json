@@ -1,0 +1,121 @@
+{
+  "company": "AutoZone Inc.",
+  "dates": ["2015-09-01","present"],
+  "projects": [
+    {
+      "longName": "Point of Sale(POS) Re-Architecture",
+      "shortName": "pos-rearch",
+      "dates": [
+        "2019-02-01",
+        "Present"
+      ],
+      "roles": [
+        "Chief Systems Engineer"
+      ],
+      "objective": [
+        "Refresh the user experience for our POS and extract business logic from a legacy program"
+      ],
+      "responsibilities": [
+        "Team Lead responsible for delivery of the new point of sale",
+      ],
+      "achievements": [
+        "Created robust CI/CD pipelines using Ansible for java and nodejs apps",
+        "Stabilized configuration of store systems using declarative yml (gitops!)",
+        "Established a CD pipeline for a very complex system involving several programs, servers and devices",
+        "Introduced centralized logging using elastic providing new capabilities during development and operations"
+      ],
+      "technologies": [
+        "reactjs",
+        "jenkins",
+        "java",
+        "cloudfoundry",
+        "docker",
+        "ansible",
+        "qt4",
+        "fortify",
+        "gitlab",
+        "elastic"
+      ]
+    },{
+      "longName": "Digital Transformation",
+      "shortName": "digital",
+      "dates": [
+        "2017-02-01",
+        "2019-02-01"
+      ],
+      "roles": [
+        "Chief Systems Engineer"
+      ],
+      "objective": [
+        "Transform AutoZone's culture, process and technologies"
+      ],
+      "responsibilities": [
+        "Digital IT Strategy",
+        "Software Engineering KPIs",
+        "Technical Talent Development"
+      ],
+      "achievements": [
+        "Helped introduce several technologies and approaches to software engineering to build a DevOps culture",
+        "Lead a diverse team of engineers on multiple ecomm, marketing and mobile projects",
+        "Set the tech strategy for the Digital IT team which was responsible for most customer facing applications",
+        "Created robust CI/CD pipelines using Ansible for java and nodejs apps",
+        "Made significant contributions to massive transformational architectures",
+        "Established a culture of innovation at AutoZone by creating an annual Hackathon",
+        "Engaged the local tech community by procuring and directing AutoZone sponsorship of tech events"
+
+      ],
+      "technologies": [
+        "reactjs",
+        "jenkins",
+        "java",
+        "material-ui",
+        "yarn",
+        "nodejs",
+        "docker",
+        "ansible",
+        "swagger",
+        "apim",
+        "sonar",
+        "fortify",
+        "gitlab",
+        "elastic",
+        "cloudfoundry"
+      ]
+    },{
+      "longName": "Rewards Integration",
+      "shortName": "rewards",
+      "dates": [
+        "2015-09-01",
+        "2017-02-01"
+      ],
+      "roles": [
+        "Lead Developer"
+      ],
+      "objective": [
+        "Add loyalty capabilities to autozone.com in order to retire a single purpose application"
+      ],
+      "responsibilities": [
+        "Lead a team of mostly-remote developers ensuring delivery with quality",
+        "Create a loyalty API using code in a legacy MVC application"
+      ],
+      "achievements": [
+        "Created robust CI/CD pipelines for java projects",
+        "Introduced several processes and technologies that became standard technologies at AutoZone",
+        "Created KPIs for engineering and held the team to those standards using commit hooks",
+        "Established a formal code review process designed to improve the code"
+      ],
+      "technologies": [
+        "sonar",
+        "jenkins",
+        "jacoco",
+        "mockito",
+        "Docker",
+        "spring-boot",
+        "spring-batch",
+        "spring-integration",
+        "spring-actuator",
+        "Bootstrap"
+      ]
+    }
+  ]
+}
